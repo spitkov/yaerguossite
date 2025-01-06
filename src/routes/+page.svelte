@@ -9,6 +9,21 @@
   });
 </script>
 
+<header class="bg-black px-8 py-4 flex justify-between items-center">
+  <!-- Logo that redirects to the home page -->
+  <div class="cursor-pointer" on:click={() => window.location.href = '/'}>
+    <img src="/lilypad.png" alt="Logo" class="h-10"> <!-- Replace with your logo -->
+  </div>
+
+  <!-- Navigation links -->
+  <nav class="flex gap-8">
+    <a href="https://discord.com" target="_blank" rel="noopener noreferrer" class="text-white font-khand hover:text-blue-400 transition-colors">Discord</a>
+    <a href="/faq" class="text-white font-khand hover:text-blue-400 transition-colors">FAQ</a>
+    <a href="/collaborators" class="text-white font-khand hover:text-blue-400 transition-colors">Collaborators</a>
+    <a href="/download" class="text-white font-khand hover:text-blue-400 transition-colors">Download</a>
+  </nav>
+</header>
+
 <main class="min-h-screen flex flex-col">
   <section class="py-32 text-center relative overflow-hidden">
     <div class="absolute inset-0 bg-gradient-radial from-hero-top/20 to-transparent pointer-events-none"></div>
@@ -26,7 +41,7 @@
           </div>
           
           <div class="flex items-center gap-4 justify-center">
-            <h1 class="text-7xl font-bold text-transparent bg-gradient-to-r from-white to-white/80 bg-clip-text leading-tight">yaerguOS</h1>
+            <h1 class="text-7xl font-khand text-transparent bg-gradient-to-r from-white to-white/80 bg-clip-text leading-tight">yaerguOS</h1>
             <img src="/lilypad.png" alt="lilypad" class="h-24 w-auto " />
           </div>
           
@@ -78,7 +93,7 @@
               <div class="w-20 h-20 mb-6 bg-gradient-to-br from-hero-top to-text-primary/30 rounded-xl p-4 group-hover:scale-110 transition-transform duration-300 shadow-lg">
                 <img src="/ayva.png" alt="Ayva" class="w-full h-full" />
               </div>
-              <h3 class="text-2xl font-bold text-transparent bg-gradient-to-r from-white to-white/90 bg-clip-text">Ayva</h3>
+              <h3 class="text-2xl font-khand text-transparent bg-gradient-to-r from-white to-white/90 bg-clip-text">Ayva</h3>
             </div>
             <p class="text-text-muted mb-8">Voice assistant bundled with yaerguOS, designed to be easy to use and to help the user with their tasks, provide info and more.</p>
             <ul class="space-y-3">
@@ -102,7 +117,7 @@
               <div class="w-20 h-20 mb-6 bg-gradient-to-br from-hero-top to-text-primary/30 rounded-xl p-4 group-hover:scale-110 transition-transform duration-300 shadow-lg">
                 <img src="/yns-icon.svg" alt="YNS" class="w-full h-full" />
               </div>
-              <h3 class="text-2xl font-bold text-transparent bg-gradient-to-r from-white to-white/90 bg-clip-text">YNS</h3>
+              <h3 class="text-2xl font-khand text-transparent bg-gradient-to-r from-white to-white/90 bg-clip-text">YNS</h3>
             </div>
             <p class="text-text-muted mb-8">Package manager with fast installation, wide variety of yaerguOS utilites, and not resource heavy.</p>
             <ul class="space-y-3">
@@ -126,7 +141,7 @@
               <div class="w-20 h-20 mb-6 bg-gradient-to-br from-hero-top to-text-primary/30 rounded-xl p-4 group-hover:scale-110 transition-transform duration-300 shadow-lg">
                 <img src="/discover.png" alt="Discover" class="w-full h-full" />
               </div>
-              <h3 class="text-2xl font-bold text-transparent bg-gradient-to-r from-white to-white/90 bg-clip-text">Discover</h3>
+              <h3 class="text-2xl font-khand text-transparent bg-gradient-to-r from-white to-white/90 bg-clip-text">Discover</h3>
             </div>
             <p class="text-text-muted mb-8">Software center with a wide variety of apps from flathub including vscodium, vlc etc.. Built-in discover app from kde plasma.</p>
             <ul class="space-y-3">

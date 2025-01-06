@@ -12,15 +12,15 @@
 <header class="bg-black px-8 py-4 flex justify-between items-center">
   <!-- Logo that redirects to the home page -->
   <div class="cursor-pointer" on:click={() => window.location.href = '/'}>
-    <img src="/path/to/logo.png" alt="Logo" class="h-10"> <!-- Replace with your logo -->
+    <img src="/lilypad.png" alt="Logo" class="h-10"> <!-- Replace with your logo -->
   </div>
 
   <!-- Navigation links -->
   <nav class="flex gap-8">
-    <a href="https://discord.com" target="_blank" rel="noopener noreferrer" class="text-white font-bold hover:text-blue-400 transition-colors">Discord</a>
-    <a href="/faq" class="text-white font-bold hover:text-blue-400 transition-colors">FAQ</a>
-    <a href="/collaborators" class="text-white font-bold hover:text-blue-400 transition-colors">Collaborators</a>
-    <a href="/download" class="text-white font-bold hover:text-blue-400 transition-colors">Download</a>
+    <a href="https://discord.com" target="_blank" rel="noopener noreferrer" class="text-white font-khand hover:text-blue-400 transition-colors">Discord</a>
+    <a href="/faq" class="text-white font-khand hover:text-blue-400 transition-colors">FAQ</a>
+    <a href="/collaborators" class="text-white font-khand hover:text-blue-400 transition-colors">Collaborators</a>
+    <a href="/download" class="text-white font-khand hover:text-blue-400 transition-colors">Download</a>
   </nav>
 </header>
 
@@ -35,38 +35,17 @@
     <div class="container mx-auto px-4 relative">
       {#if mounted}
         <div in:fly={{ y: -20, duration: 800 }} class="space-y-8">
-          <div class="inline-block px-6 py-2 rounded-full bg-white/5 backdrop-blur-sm border border-white/10 text-white/80 text-sm mb-4 shadow-lg">
-            <span class="mr-2 inline-block w-2 h-2 bg-text-primary rounded-full animate-pulse"></span>
-            Coming Soon
-          </div>
-          
+                    
           <div class="flex items-center gap-4 justify-center">
-            <h1 class="text-7xl font-bold text-transparent bg-gradient-to-r from-white to-white/80 bg-clip-text leading-normal">yaerguOS</h1>
+            <h1 class="text-7xl font-khand text-transparent bg-gradient-to-r from-white to-white/80 bg-clip-text leading-normal">yaerguOS</h1>
             <img src="/lilypad.png" alt="lilypad" class="h-24 w-auto " />
           </div>
           
           <div class="max-w-2xl mx-auto space-y-4">
-            <p class="text-xl text-white/90">A modern, highly optimized arch-based linux distribution powered by KDE plasma.</p>
-            <p class="text-lg text-white/80">Built for looks, performance and ease of use.</p>
+            <p class="text-4xl text-white/90 font-khand">FAQ</p>
           </div>
           
           <div class="flex justify-center gap-4 mt-8">
-            <button class="group px-8 py-3 rounded-lg bg-white/10 backdrop-blur-sm border border-white/10 text-white hover:bg-white/20 transition-all duration-300 shadow-lg hover:shadow-xl">
-              <span class="flex items-center gap-2">
-                FAQ TESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTEST
-                <svg class="w-4 h-4 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
-                </svg>
-              </span>
-            </button>
-            <button class="group px-8 py-3 rounded-lg bg-text-primary/20 backdrop-blur-sm border border-text-primary/30 text-text-primary hover:bg-text-primary/30 transition-all duration-300 shadow-lg hover:shadow-xl">
-              <span class="flex items-center gap-2">
-                Learn More
-                <svg class="w-4 h-4 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
-                </svg>
-              </span>
-            </button>
           </div>
         </div>
       {/if}
@@ -82,81 +61,22 @@
     
     <div class="container mx-auto px-4 relative">
       {#if mounted}
-        <h2 class="text-4xl font-bold text-center mb-24 text-transparent bg-gradient-to-r from-white to-white/80 bg-clip-text" in:fade={{ duration: 800, delay: 200 }}>
-          Features that separate the yaergu system from any other
+        <h2 class="text-4xl font-khand text-center mb-2 text-transparent bg-gradient-to-r from-white to-white/80 bg-clip-text" in:fade={{ duration: 800, delay: 200 }}>
+          When will yaerguOS be released?
         </h2>
+        <h2 class="text-3xl font-khand text-center mb-2 text-transparent bg-gradient-to-r from-white to-white/80 bg-clip-text" in:fade={{ duration: 800, delay: 200 }}>
+          We do not know for sure, but we assume mid-2025.
+        </h2>
+        <hr class="border-t-2 border-gray-500/50 mb-2">
+        <h2 class="text-4xl font-khand text-center mb-2 text-transparent bg-gradient-to-r from-white to-white/80 bg-clip-text" in:fade={{ duration: 800, delay: 200 }}>
+          What is the best way to contact the owner?
+        </h2>
+        <h2 class="text-3xl font-khand text-center mb-2 text-transparent bg-gradient-to-r from-white to-white/80 bg-clip-text" in:fade={{ duration: 800, delay: 200 }}>
+          On discord : maybe.asdf
+        </h2>
+        <hr class="border-t-2 border-gray-500/50">
+        
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto" in:fade={{ duration: 800, delay: 400 }}>
-          <div class="group bg-white/5 backdrop-blur-md rounded-xl p-8 border border-white/10 hover:bg-white/10 transition-all duration-300 hover:shadow-2xl hover:-translate-y-1">
-            <div class="mb-8">
-              <div class="w-20 h-20 mb-6 bg-gradient-to-br from-hero-top to-text-primary/30 rounded-xl p-4 group-hover:scale-110 transition-transform duration-300 shadow-lg">
-                <img src="/ayva.png" alt="Ayva" class="w-full h-full" />
-              </div>
-              <h3 class="text-2xl font-bold text-transparent bg-gradient-to-r from-white to-white/90 bg-clip-text">Ayva</h3>
-            </div>
-            <p class="text-text-muted mb-8">Voice assistant bundled with yaerguOS, designed to be easy to use and to help the user with their tasks, provide info and more.</p>
-            <ul class="space-y-3">
-              <li class="flex items-center gap-3 text-text-muted group-hover:text-white/80 transition-colors duration-300">
-                <span class="text-text-primary text-lg">✓</span>
-                Open websites, apps and more
-              </li>
-              <li class="flex items-center gap-3 text-text-muted group-hover:text-white/80 transition-colors duration-300">
-                <span class="text-text-primary text-lg">✓</span>
-                Assist in everyday tasks
-              </li>
-              <li class="flex items-center gap-3 text-text-muted group-hover:text-white/80 transition-colors duration-300">
-                <span class="text-yellow-500 text-lg">~</span>
-                AI powered answers (WIP)
-              </li>
-            </ul>
-          </div>
-
-          <div class="group bg-white/5 backdrop-blur-md rounded-xl p-8 border border-white/10 hover:bg-white/10 transition-all duration-300 hover:shadow-2xl hover:-translate-y-1">
-            <div class="mb-8">
-              <div class="w-20 h-20 mb-6 bg-gradient-to-br from-hero-top to-text-primary/30 rounded-xl p-4 group-hover:scale-110 transition-transform duration-300 shadow-lg">
-                <img src="/yns-icon.svg" alt="YNS" class="w-full h-full" />
-              </div>
-              <h3 class="text-2xl font-bold text-transparent bg-gradient-to-r from-white to-white/90 bg-clip-text">YNS</h3>
-            </div>
-            <p class="text-text-muted mb-8">Package manager with fast installation, wide variety of yaerguOS utilites, and not resource heavy.</p>
-            <ul class="space-y-3">
-              <li class="flex items-center gap-3 text-text-muted group-hover:text-white/80 transition-colors duration-300">
-                <span class="text-text-primary text-lg">✓</span>
-                Install apps and games
-              </li>
-              <li class="flex items-center gap-3 text-text-muted group-hover:text-white/80 transition-colors duration-300">
-                <span class="text-text-primary text-lg">✓</span>
-                Easy updates
-              </li>
-              <li class="flex items-center gap-3 text-text-muted group-hover:text-white/80 transition-colors duration-300">
-                <span class="text-yellow-500 text-lg">~</span>
-                CLI interface
-              </li>
-            </ul>
-          </div>
-
-          <div class="group bg-white/5 backdrop-blur-md rounded-xl p-8 border border-white/10 hover:bg-white/10 transition-all duration-300 hover:shadow-2xl hover:-translate-y-1">
-            <div class="mb-8">
-              <div class="w-20 h-20 mb-6 bg-gradient-to-br from-hero-top to-text-primary/30 rounded-xl p-4 group-hover:scale-110 transition-transform duration-300 shadow-lg">
-                <img src="/discover.png" alt="Discover" class="w-full h-full" />
-              </div>
-              <h3 class="text-2xl font-bold text-transparent bg-gradient-to-r from-white to-white/90 bg-clip-text">Discover</h3>
-            </div>
-            <p class="text-text-muted mb-8">Software center with a wide variety of apps from flathub including vscodium, vlc etc.. Built-in discover app from kde plasma.</p>
-            <ul class="space-y-3">
-              <li class="flex items-center gap-3 text-text-muted group-hover:text-white/80 transition-colors duration-300">
-                <span class="text-text-primary text-lg">✓</span>
-                Wide variety
-              </li>
-              <li class="flex items-center gap-3 text-text-muted group-hover:text-white/80 transition-colors duration-300">
-                <span class="text-text-primary text-lg">✓</span>
-                Fast downloads
-              </li>
-              <li class="flex items-center gap-3 text-text-muted group-hover:text-white/80 transition-colors duration-300">
-                <span class="text-text-primary text-lg">✓</span>
-                From KDE
-              </li>
-            </ul>
-          </div>
         </div>
       {/if}
     </div>

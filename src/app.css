@@ -16,7 +16,7 @@
     @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
   }
   .btn {
-    @apply px-6 py-3 rounded-lg font-medium transition-all duration-200;
+    @apply px-6 py-3 rounded-lg font-khand transition-all duration-200;
   }
   .btn-primary {
     @apply bg-primary text-white hover:bg-opacity-90;
