@@ -38,7 +38,7 @@
           <div class="flex justify-center gap-4 mt-8">
             <button class="group px-8 py-3 rounded-lg bg-white/10 backdrop-blur-sm border border-white/10 text-white hover:bg-white/20 transition-all duration-300 shadow-lg hover:shadow-xl">
               <span class="flex items-center gap-2">
-                Join Waitlist
+                Information
                 <svg class="w-4 h-4 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
                 </svg>
@@ -113,8 +113,8 @@
                 Easy updates
               </li>
               <li class="flex items-center gap-3 text-text-muted group-hover:text-white/80 transition-colors duration-300">
-                <span class="text-yellow-500 text-lg">~</span>
-                CLI interface
+                <span class="text-text-primary text-lg">✓</span>
+                GUI and CLI interface
               </li>
             </ul>
           </div>
