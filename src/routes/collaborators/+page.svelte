@@ -9,24 +9,34 @@
 
   const collaborators = [
     {
+      name: "maybe.asdf",
+      role: "Project Lead",
+      description: "Project founder and lead architect of yaerguOS. Oversees the overall direction and development of the distribution.",
+      image: "/maybe.jpg",
+      skills: ["System Architecture", "Linux Development", "UI/UX Design"],
+      links: {
+        discord: "maybe.asdf"
+      }
+    },
+    {
+      name: "tomiszivacs",
+      role: "Brainstormer",
+      description: "Co-owner, Brainstorms functions and apps. Also designs various elements for the system including icons, wallpaper and many others.",
+      image: "/tomi.webp",
+      skills: ["Ideas", "Icons", "Wallpaper Design"],
+      links: {
+        discord: "tomiszivacs"
+      }
+    },
+    {
       name: "spitkov",
       role: "Web Developer",
       description: "Lead web developer responsible for the new YNS CLI and GUI interfaces. Specializes in creating intuitive and efficient user experiences.",
       image: "/spitkov.png",
-      skills: ["Web Development", "UI/UX Design", "CLI Development"],
+      skills: ["Web Development", "Server Set-up", "CLI Development"],
       links: {
         github: "https://github.com/spitkov",
         discord: "spitkov"
-      }
-    },
-    {
-      name: "maybe.asdf",
-      role: "Project Lead",
-      description: "Project founder and lead architect of yaerguOS. Oversees the overall direction and development of the distribution.",
-      image: "/maybe.png",
-      skills: ["System Architecture", "Linux Development", "Project Management"],
-      links: {
-        discord: "maybe.asdf"
       }
     }
   ];
