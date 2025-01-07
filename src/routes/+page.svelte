@@ -37,7 +37,7 @@
           </div>
           
           <div class="flex justify-center gap-4 mt-4">
-            <a href="https://discord.com" target="_blank" rel="noopener noreferrer" class="transform hover:scale-105 transition-all duration-300">
+            <a href="https://discord.gg/EEmGn2fdDs" target="_blank" rel="noopener noreferrer" class="transform hover:scale-105 transition-all duration-300">
               <button class="group px-6 py-2 rounded-lg bg-white/10 backdrop-blur-sm border border-white/10 text-white hover:bg-white/20 transition-all duration-300 shadow-lg hover:shadow-xl">
                 <span class="flex items-center gap-2">
                   Join Discord

@@ -38,7 +38,15 @@
         <span class="absolute bottom-0 left-0 w-full h-0.5 bg-white/0 group-hover:bg-white/20 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-200 {path === '/collaborators' ? '!scale-x-100 !bg-white/40' : ''}"></span>
       </a>
       <a 
-        href="https://discord.com" 
+        href="https://ko-fi.com/maybeasdf" 
+        class="relative text-white/80 hover:text-white font-khand transition-colors duration-200 hover:-translate-y-0.5 transform group"
+        class:active={path === 'https://ko-fi.com/maybeasdf'}
+      >
+        Donate
+        <span class="absolute bottom-0 left-0 w-full h-0.5 bg-white/0 group-hover:bg-white/20 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-200 {path === '/collaborators' ? '!scale-x-100 !bg-white/40' : ''}"></span>
+      </a>
+      <a 
+        href="https://discord.gg/EEmGn2fdDs" 
         target="_blank" 
         rel="noopener noreferrer" 
         class="px-4 py-2 bg-blue-600/20 hover:bg-blue-600/40 text-blue-400 hover:text-blue-300 rounded-lg font-khand transition-all duration-200"
