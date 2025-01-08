@@ -5,6 +5,8 @@
       <div>
         <p class="text-lg">© 2025 yaerguOS. All rights reserved.</p>
       </div>
+      <div>
+      <img src="https://cdn.yaergu.uk/zia.png" width="125" height="125" alt="shoutout to zia"/></div>
       <div class="flex gap-8">
         <a href="#" class="hover:text-white transition-all duration-200 hover:-translate-y-1">
           <span class="flex items-center gap-2">

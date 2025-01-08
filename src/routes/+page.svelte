@@ -38,23 +38,15 @@
           
           <div class="flex justify-center gap-4 mt-4">
             <a href="https://discord.gg/EEmGn2fdDs" target="_blank" rel="noopener noreferrer" class="transform hover:scale-105 transition-all duration-300">
-              <button class="group px-6 py-2 rounded-lg bg-white/10 backdrop-blur-sm border border-white/10 text-white hover:bg-white/20 transition-all duration-300 shadow-lg hover:shadow-xl">
-                <span class="flex items-center gap-2">
-                  Join Discord
-                  <svg class="w-4 h-4 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
-                  </svg>
-                </span>
-              </button>
-            </a>
             <button class="group px-6 py-2 rounded-lg bg-text-primary/20 backdrop-blur-sm border border-text-primary/30 text-text-primary hover:bg-text-primary/30 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105">
               <span class="flex items-center gap-2">
-                Learn More
+                Join Discord
                 <svg class="w-4 h-4 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
                 </svg>
               </span>
             </button>
+            </a>
           </div>
         </div>
       {/if}

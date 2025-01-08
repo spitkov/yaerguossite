@@ -118,7 +118,7 @@
       <div class="mt-16 text-center">
         <p class="text-white/60 mb-4">Want to contribute to yaerguOS?</p>
         <a
-          href="https://discord.com"
+          href="https://discord.gg/EEmGn2fdDs"
           target="_blank"
           rel="noopener noreferrer"
           class="inline-flex items-center gap-2 px-6 py-3 bg-blue-600/20 hover:bg-blue-600/30 text-blue-400 hover:text-blue-300 rounded-lg transition-all duration-200 group"

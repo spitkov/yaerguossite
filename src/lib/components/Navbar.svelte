@@ -43,7 +43,7 @@
         class:active={path === 'https://ko-fi.com/maybeasdf'}
       >
         Donate
-        <span class="absolute bottom-0 left-0 w-full h-0.5 bg-white/0 group-hover:bg-white/20 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-200 {path === '/collaborators' ? '!scale-x-100 !bg-white/40' : ''}"></span>
+        <span class="absolute bottom-0 left-0 w-full h-0.5 bg-white/0 group-hover:bg-white/20 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-200 {path === '/donate' ? '!scale-x-100 !bg-white/40' : ''}"></span>
       </a>
       <a 
         href="https://discord.gg/EEmGn2fdDs" 
