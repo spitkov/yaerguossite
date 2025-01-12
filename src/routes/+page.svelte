@@ -74,7 +74,7 @@
               </div>
               <h3 class="text-xl font-khand text-transparent bg-gradient-to-r from-white to-white/90 bg-clip-text group-hover:scale-105 transition-transform duration-300">Ayva</h3>
             </div>
-            <p class="text-text-muted mb-4 text-sm group-hover:text-white/80 transition-colors duration-300">Voice assistant bundled with yaerguOS, designed to be easy to use and to help the user with their tasks, provide info and more.</p>
+            <p class="text-text-muted mb-4 text-sm group-hover:text-white/80 transition-colors duration-300">Voice assistant bundled with yaerguOS, that has AI powered answers and screen access, so she knows exactly what you want.</p>
             <ul class="space-y-2 text-sm">
               <li class="flex items-center gap-2 text-text-muted group-hover:text-white/80 transition-colors duration-300">
                 <span class="text-text-primary transform group-hover:scale-110 transition-transform duration-300">✓</span>
@@ -85,8 +85,8 @@
                 Assist in everyday tasks
               </li>
               <li class="flex items-center gap-2 text-text-muted group-hover:text-white/80 transition-colors duration-300">
-                <span class="text-yellow-500 transform group-hover:scale-110 transition-transform duration-300">~</span>
-                AI powered answers (WIP)
+                <span class="text-text-primary transform group-hover:scale-110 transition-transform duration-300">✓</span>
+                AI Powered answers.
               </li>
             </ul>
           </div>
